@@ -1,0 +1,48 @@
+/* Set the page size to 720x1280 pixels */
+html, body {
+    width: 720px;
+    height: 1280px;
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles for the blue bar at the top */
+.header {
+    background-color: #007bff; /* Blue color */
+    color: white; /* Text color */
+    padding: 10px; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Logo styles */
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #007bff; /* Blue color */
+    color: white; /* Text color */
+    padding: 10px; /* Adjust as needed */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* Navigation icons */
+.footer a {
+    color: white;
+    margin: 0 15px; /* Adjust as needed */
+    text-decoration: none;
+}
+
