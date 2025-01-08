@@ -2,7 +2,7 @@ BudgetBuddy
 
 Overview
 
-BudgetBuddy is a web application designed to help users manage their finances effectively. Developed as part of my final year individual project, it showcases my ability to create a full-stack application with practical features. BudgetBuddy includes tools for setting budgets, tracking expenses, locating cheaper stores, and offering financial tips. The app’s intuitive design ensures a seamless experience for users, promoting financial responsibility and trustworthiness.
+BudgetBuddy is a web application designed to help users manage their finances effectively. Developed as part of my final year individual project, it showcases my ability to create a full-stack application with practical features. BudgetBuddy includes tools for setting budgets, tracking expenses, locating cheaper stores, and offering financial tips. The app’s intuitive design ensures a seamless experience for users, promoting financial responsibility and trustworthiness. This repository doesn't include the datebases that were created to run with this application.
 Features
 
 Features
