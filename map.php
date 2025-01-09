@@ -37,7 +37,7 @@
     method: 'GET',
     headers: {
         accept: 'application/json',
-        Authorization: 'fsq3GWDOSgHO48T+blUZQQwzs1nI55bxfhrkuRBS4Ro3Sdg='
+        Authorization: 'API_Key'
     }
 })
 .then(response => response.json())
