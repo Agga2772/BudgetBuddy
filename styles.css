@@ -1,0 +1,113 @@
+/* Set the page size to 720x1280 pixels */
+html, body {
+    width: 720px;
+    height: 1280px;
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styles */
+.header {
+    background-color: #007bff; /* Blue color */
+    color: white; /* Text color */
+    padding: 10px; /* Adjust as needed */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo styles */
+.logo img {
+    max-width: 50px; /* Adjust logo size */
+    height: auto;
+}
+
+/* Greeting styles */
+.greeting p {
+    margin-right: 20px; /* Adjust spacing */
+}
+
+/* Logout button styles */
+.logout-button {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px; /* Adjust padding */
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Adjust hover effect */
+}
+
+/* Main content styles */
+.main-content {
+    padding: 20px; /* Adjust padding */
+}
+
+/* Footer styles */
+.footer {
+    background-color: #007bff; /* Blue color */
+    color: white; /* Text color */
+    padding: 10px; /* Adjust as needed */
+    position: fixed;
+    bottom: 0;
+    width: 720px;
+    text-align: center;
+}
+
+/* Navigation icons */
+.footer a {
+    color: white;
+    margin: 0 15px; /* Adjust as needed */
+    
+    
+}
+
+/* Overview section styles */
+.overview h1 {
+    font-size: 24px; /* Adjust font size */
+    margin-bottom: 10px; /* Adjust spacing */
+}
+
+.overview p {
+    font-size: 16px; /* Adjust font size */
+    line-height: 1.5; /* Adjust line height */
+    
+}
+.container {
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.1); /* Blue shadow */
+    margin-top: 20px;
+}
+
+.container input[type="number"],
+.container input[type="submit"],
+.container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc; /* Light gray border */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.container input[type="submit"] {
+    background-color: #4e7eff; /* Blue submit button */
+    color: #ffffff; /* White text color */
+    cursor: pointer;
+}
+
+.container input[type="submit"]:hover {
+    background-color: #2557ff; /* Darker blue on hover */
+}
+
